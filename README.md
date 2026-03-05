@@ -102,6 +102,8 @@ Location: Nepal 🇳🇵
 ## Contact
 
 <details>
-<summary><b>contact@udritdhakal.com.np</b></summary>
-
+<summary><b>Contacts</b></summary>
+  contact@udritdhakal.com.np
+  udrit@proton.me
+  Kagenou - Instagram
 </details>
