@@ -99,63 +99,9 @@ Location: Nepal 🇳🇵
 
 ---
 
-## ⚙️ Setup TryHackMe Auto-Badge
+## Contact
 
 <details>
-<summary><b>Click to expand — get your live badge working in 3 steps</b></summary>
-
-**Step 1 — Create the folder** inside your `Kagenou-Security` repo:
-```
-.github/workflows/update-thm-badge.yml
-```
-
-**Step 2 — Paste this into the `.yml` file:**
-```yaml
-name: Update TryHackMe Badge
-permissions:
-  contents: write
-on:
-  schedule:
-    - cron: '0 0 * * *'   # runs every day at midnight
-  workflow_dispatch:        # lets you trigger it manually too
-
-jobs:
-  update-badge:
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: true
-          fetch-depth: 0
-
-      - name: Configure Git
-        run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-
-      - name: Fetch TryHackMe Badge
-        uses: DhanushNehru/tryhackme-badge-action-workflow@v1.0
-        continue-on-error: true
-        with:
-          image_path: './assets/tryhackme-badge.png'
-          username: 'udritdhakal'
-          user_id: '4372784'
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit badge
-        env:
-          COMMIT_MESSAGE: "chore: update TryHackMe badge"
-        run: |
-          git add ./assets/tryhackme-badge.png || true
-          if git diff --cached --quiet; then
-            echo "No changes"
-            exit 0
-          fi
-          git commit -m "$COMMIT_MESSAGE"
-          git push origin "HEAD:${{ github.ref_name }}"
-```
-
-**Step 3 — Run it manually** once: go to **Actions → Update TryHackMe Badge → Run workflow**. It will create `assets/tryhackme-badge.png` and your badge will show up on your profile!
+<summary><b>contact@udritdhakal.com.np</b></summary>
 
 </details>
