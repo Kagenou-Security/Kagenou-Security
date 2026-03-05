@@ -54,41 +54,11 @@ $ cat /etc/motd
 
 ---
 
-## 〈 PROJECTS 〉
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  > ACTIVE REPOSITORIES                                          │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-### 🔎 [portscanner](https://github.com/Kagenou-Security/portscanner)
-> Python-based port scanner — scans target IPs across selected port ranges and enumerates detailed service/host information. A lightweight reconnaissance tool for network analysis.
-
-```python
-# Quick usage
-python portscanner.py --target <IP> --ports <range>
-```
-
----
-
-### 🛡️ [UDWALL](https://github.com/Kagenou-Security/UDWALL)
-> Android security tool built in Kotlin — a mobile-native approach to network protection and monitoring. Bringing security tooling to the palm of your hand.
-
----
-
-### 🤖 [skills-integrate-mcp-with-copilot](https://github.com/Kagenou-Security/skills-integrate-mcp-with-copilot)
-> Exploration of integrating **Model Context Protocol (MCP)** with GitHub Copilot — bridging AI-powered development workflows with security tooling automation.
-
----
-
-## 〈 STATS 〉
+## 〈 TRYHACKME 〉
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kagenou-Security&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&border_color=00ff41&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&hide_border=false)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Kagenou-Security&layout=compact&theme=chartreuse-dark&bg_color=0d1117&border_color=00ff41&title_color=00ff41&text_color=c9d1d9)
+[![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/4372784.png)](https://tryhackme.com/p/4372784)
 
 </div>
 
@@ -100,6 +70,7 @@ python portscanner.py --target <IP> --ports <range>
 
 [![Website](https://img.shields.io/badge/🌐_Portfolio-udritdhakal.com.np-00ff41?style=for-the-badge&labelColor=0d1117)](https://udritdhakal.com.np)
 [![GitHub](https://img.shields.io/badge/GitHub-Kagenou--Security-00ff41?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Kagenou-Security)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-00ff41?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=0d1117)](https://tryhackme.com/p/4372784)
 
 </div>
 
