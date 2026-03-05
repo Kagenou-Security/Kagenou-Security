@@ -64,13 +64,6 @@ Location: Nepal 🇳🇵
 
 <div align="center">
 
-> **Live badge auto-updates daily via GitHub Action** — [setup instructions below ↓](#-setup-tryhackme-auto-badge)
-
-<!-- THM BADGE — replaced automatically by GitHub Action -->
-[![TryHackMe](./assets/tryhackme-badge.png)](https://tryhackme.com/p/udritdhakal)
-
-<br/>
-
 [![TryHackMe Profile](https://img.shields.io/badge/View_Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=ff6600)](https://tryhackme.com/p/udritdhakal)
 
 </div>
