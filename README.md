@@ -99,8 +99,6 @@ Location: Nepal 🇳🇵
 
 ---
 
-## Contact
-
 <details>
 <summary><b>Contact</b></summary>
   contact@udritdhakal.com.np
